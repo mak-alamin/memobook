@@ -1,3 +1,10 @@
+.navbar {
+  background-color: #192b63;
+}
 .navbar-brand {
-    min-width: 40px;
+  min-width: 40px;
+  max-width: 140px;
+}
+img {
+  width: 100%;
 }

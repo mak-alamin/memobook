@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../../assets/images/logo.svg";
+import logo from "../../assets/images/logo.png";
 
 function Header() {
   return (
     <>
       <header className="App-header">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="https://google.com">
+        <nav className="navbar navbar-expand-lg">
+          <div className="container">
+            <a className="navbar-brand" href="https://memobook.com">
               <img src={logo} className="App-logo" alt="logo" />
             </a>
             <button
@@ -67,9 +67,6 @@ function Header() {
                       </a>
                     </li>
                   </ul>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled">Disabled</a>
                 </li>
               </ul>
               <form className="d-flex">
