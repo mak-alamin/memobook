@@ -10,21 +10,24 @@ function Layout() {
   return (
     <Container fluid>
       <Header />
-      <Container>
-        <Row>
-          <Col>
-            <LeftSidebar />
-          </Col>
 
-          <Col xs={6}>
-            <MainContent />
-          </Col>
+      <main className="mt-4">
+        <Container>
+          <Row>
+            <Col>
+              <LeftSidebar />
+            </Col>
 
-          <Col>
-            <RightSidebar />
-          </Col>
-        </Row>
-      </Container>
+            <Col xs={6}>
+              <MainContent className="main-content" />
+            </Col>
+
+            <Col>
+              <RightSidebar />
+            </Col>
+          </Row>
+        </Container>
+      </main>
 
       <Footer />
     </Container>
