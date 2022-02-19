@@ -11,7 +11,8 @@ import logo from "../../assets/images/logo.png";
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <header>
+    <Navbar expand="lg" className="px-5">
       <Navbar.Brand href="#">
         <img src={logo} alt="" srcset="" />
       </Navbar.Brand>
@@ -44,6 +45,7 @@ function Header() {
         </Form>
       </Navbar.Collapse>
     </Navbar>
+    </header>
   );
 }
 

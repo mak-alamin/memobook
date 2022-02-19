@@ -3,7 +3,7 @@ import React from "react";
 function LeftSidebar() {
   return (
     <div>
-      <h1>LeftSiderbar</h1>
+      <h1>LeftSidebar</h1>
     </div>
   );
 }
