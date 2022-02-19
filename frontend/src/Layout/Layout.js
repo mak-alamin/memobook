@@ -1,10 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Header from "../Header/Header";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 import LeftSidebar from "./LeftSidebar/LeftSidebar";
-import RightSidebar from "./RightSidebar/RightSidebar";
-
 import MainContent from "./MainContent/MainContent";
+import RightSidebar from "./RightSidebar/RightSidebar";
 
 function Layout() {
   return (
@@ -25,6 +25,8 @@ function Layout() {
           </Col>
         </Row>
       </Container>
+
+      <Footer />
     </Container>
   );
 }
