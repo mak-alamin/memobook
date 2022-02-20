@@ -11,7 +11,7 @@ function Layout() {
     <Container fluid>
       <Header />
 
-      <main className="mt-4">
+      <main className="mt-5">
         <Container>
           <Row>
             <Col>
