@@ -1,8 +1,11 @@
 import React from "react";
+import ProfileCard from "../../components/Profile/ProfileCard";
 
 function LeftSidebar() {
   return (
     <div className="left-sidebar">
+      <ProfileCard />
+
       <a href="#newsfeed" className="d-block">
         Newsfeed
       </a>
