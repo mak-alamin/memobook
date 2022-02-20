@@ -1,6 +1,24 @@
-.bg-light {
-  background-color: #eeedff;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #192b63;
+  --color-light: #eeedff;
 }
+.bg-light {
+  background-color: var(--color-light) !important;
+}
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+.text-light {
+  color: var(--color-light);
+}
+.text-dark {
+  color: var(--color-dark);
+}
+
 nav.navbar.navbar-expand-lg.navbar-light {
   background: #192b63;
 }
@@ -18,13 +36,9 @@ nav.navbar.navbar-expand-lg.navbar-light {
 img {
   width: 100%;
 }
-.profile-card {
-  position: relative;
-}
 .profile-card img {
   max-width: 70px;
   border: 5px solid #f3f3f3;
   border-radius: 50%;
-  position: absolute;
-  top: -35px;
+  top: -38px;
 }
