@@ -1,9 +1,10 @@
 import React from "react";
+import Contacts from "../../components/Contacts/Contacts";
 
 function RightSidebar() {
   return (
-    <div>
-      <h1>RightSidebar</h1>
+      <div className="right-sidebar bg-light">
+      <Contacts />
     </div>
   );
 }
