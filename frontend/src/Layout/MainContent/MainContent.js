@@ -1,9 +1,10 @@
 import React from "react";
+import StatusForm from "../../components/Forms/StatusForm";
 
 function MainContent() {
   return (
     <div>
-      <h1>MainContent</h1>
+      <StatusForm />
     </div>
   );
 }
